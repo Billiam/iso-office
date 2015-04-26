@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="32" height="32" tilewidth="20" tileheight="10" nextobjectid="1">
+ <tileset firstgid="1" name="shadows" tilewidth="20" tileheight="34">
+  <image source="../tileset/shadow.png" width="160" height="170"/>
+ </tileset>
+ <tileset firstgid="41" name="wall" tilewidth="20" tileheight="34">
+  <image source="../tileset/wall.png" width="160" height="102"/>
+ </tileset>
+ <tileset firstgid="65" name="doors" tilewidth="20" tileheight="34">
+  <image source="../tileset/doors.png" width="160" height="102"/>
+ </tileset>
+ <layer name="input_Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7CJwr823hkgPK2CJrT5DgAAAMCBBRjtADU=
+  </data>
+ </layer>
+ <layer name="input_Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6C3sn8zY9w5SEACXDbtAAAA8MICt+IAOA==
+  </data>
+ </layer>
+ <layer name="output1_Shadow" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0sEJADAIBEEhJv2XrF0oYQb2fZ+L2OV2Obj/ujO4zz4+CQAA/KAABD4AJQ==
+  </data>
+ </layer>
+ <layer name="regions_input" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0qENAAAIBLFfh/0XxBI0Caad4MQlTPUdAIsnAQCACw1vaABT
+  </data>
+ </layer>
+ <layer name="regions_output" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0sEJADAMAzGv0y07esgUCa0Eft/HyS4nub1f++wz/YnpPgAA8IYCZGcFSQ==
+  </data>
+ </layer>
+</map>

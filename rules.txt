@@ -1,0 +1,33 @@
+# Wall cast shadows
+rules/ShadowWallTexture.tmx
+rules/ShadowWallTextureH.tmx
+
+# Wall Singles
+rules/WallShadowSingleN.tmx
+rules/WallShadowSingleW.tmx
+rules/WallShadowSingleV.tmx
+# Under doors
+rules/DoorShadowN.tmx
+
+# Wall Stacks
+rules/WallShadowStackV.tmx
+#rules/WallShadowStackV2.tmx
+
+# Wall Pairs
+rules/WallShadowN.tmx
+rules/WallShadowW.tmx
+rules/WallShadowV.tmx
+
+# Cubicles
+# Singles
+rules/CubicleShadowSingle.tmx
+# Pairs
+rules/CubicleShadowN.tmx
+rules/CubicleShadowNW.tmx
+rules/CubicleShadowSingleInside.tmx
+
+# Tables
+# Singles
+rules/TableShadowSingle.tmx
+# Pairs
+rules/TableShadow.tmx

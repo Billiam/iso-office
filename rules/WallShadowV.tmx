@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="32" height="32" tilewidth="20" tileheight="10" nextobjectid="1">
+ <tileset firstgid="1" name="shadows" tilewidth="20" tileheight="34">
+  <image source="../tileset/shadow.png" width="160" height="170"/>
+ </tileset>
+ <tileset firstgid="41" name="wall" tilewidth="20" tileheight="34">
+  <image source="../tileset/wall.png" width="160" height="102"/>
+ </tileset>
+ <tileset firstgid="65" name="doors" tilewidth="20" tileheight="34">
+  <image source="../tileset/doors.png" width="160" height="102"/>
+ </tileset>
+ <layer name="input_Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEJACAMRNGbRxsLwf03EwewsMk/4d4C+UqIFBEREa8mHSCPhkqLDpBHw81pG3REIYe3Ou8DfR86PJ9A/3mD58cfNlmPAmI=
+  </data>
+ </layer>
+ <layer name="output_Shadow" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0NEJACAMQ8Hi/kO7QaF+qJC7CZJXBQCcWK8HBNK8l9Yn7e+UPvdpzu82VEAADQ==
+  </data>
+ </layer>
+ <layer name="regions_input" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztz9EJACAQw9Cu4/4LOsF9CGIj5C3QNJEkSadWOyCMhpcIfwkNkxV2322Er4SGSbutvd/Q/tze1x82nXYB7Q==
+  </data>
+ </layer>
+ <layer name="regions_output" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0LENADAIA0HWyf4L0lAjpQA7yp9EDXwEAAC4dWrUN/yE5j2HPpsc/lXv76j7OLeZQnO8IAEYeQK6
+  </data>
+ </layer>
+ <layer name="input_Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1MEJACEMAEH7UfRzYP+dqQ0IfrI52Gkgq0RLkSRJryodsE06INigA7aPDrg4bY2OCJThrJn3gf4fMrzXaPSdd3i+/mEBsdwCUQ==
+  </data>
+ </layer>
+ <layer name="input_Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0rENACAMA0HPg5RU7D8bWSFNDOJvgpdlCQAAdC13QNnugGHpDtB/m98s3AHiDwDecwC9TQEi
+  </data>
+ </layer>
+ <layer name="input_Walls" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIACAredm/mVbwcm6QgAgAAPglrwOjrgMASw0UIgBp
+  </data>
+ </layer>
+</map>

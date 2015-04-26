@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="32" height="32" tilewidth="20" tileheight="10" nextobjectid="1">
+ <tileset firstgid="1" name="shadows" tilewidth="20" tileheight="34">
+  <image source="../tileset/shadow.png" width="160" height="170"/>
+ </tileset>
+ <tileset firstgid="41" name="wall" tilewidth="20" tileheight="34">
+  <image source="../tileset/wall.png" width="160" height="102"/>
+ </tileset>
+ <tileset firstgid="65" name="doors" tilewidth="20" tileheight="34">
+  <image source="../tileset/doors.png" width="160" height="102"/>
+ </tileset>
+ <layer name="input_Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzYEAAAAIA7Dz5A+YwQFqE1gCNPP8BwAAblgzbABV
+  </data>
+ </layer>
+ <layer name="input_Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzYEAAAAIA7AT5Y+XwQFqE1gCNPP8BwAAbliYTABd
+  </data>
+ </layer>
+ <layer name="output1_Shadow" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7AF/6KRsIODp1XQBGjmOwAAAHC0KbAAAw==
+  </data>
+ </layer>
+ <layer name="regions_input" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzYEAAAAIA7Dr5C+YwQFqE1gCNPP8BwAAblgaNABT
+  </data>
+ </layer>
+ <layer name="regions_output" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztziEBAAAIA7DXoSXRiYBAYLYES4BNJf19AAAAuBiJkACq
+  </data>
+ </layer>
+ <layer name="input_Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzYEAAAAIA7Cz5Q+VwQFqE1gCNPP8BwAAbliQygCF
+  </data>
+ </layer>
+ <layer name="input_Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzYEAAAAIA7DD5c+UwQFqE1gCNPP8BwAAbljDOgCJ
+  </data>
+ </layer>
+ <layer name="input_Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzYEAAAAIA7Ab5W+XwQFqE1gCNPP8BwAAblixhABf
+  </data>
+ </layer>
+ <layer name="input_Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzYEAAAAIA7D75O+XwQFqE1gCNPP8BwAAblhMpABX
+  </data>
+ </layer>
+</map>

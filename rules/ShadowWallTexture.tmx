@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="32" height="32" tilewidth="20" tileheight="10" nextobjectid="21">
+ <tileset firstgid="1" name="floor" tilewidth="20" tileheight="34">
+  <tileoffset x="0" y="5"/>
+  <image source="../tileset/floor.png" width="160" height="34"/>
+ </tileset>
+ <tileset firstgid="9" name="wall" tilewidth="20" tileheight="34">
+  <image source="../tileset/wall.png" width="160" height="102"/>
+ </tileset>
+ <tileset firstgid="33" name="shadow" tilewidth="20" tileheight="34">
+  <image source="../tileset/shadow.png" width="160" height="170"/>
+ </tileset>
+ <tileset firstgid="73" name="table" tilewidth="20" tileheight="34">
+  <image source="../tileset/table.png" width="160" height="136"/>
+ </tileset>
+ <tileset firstgid="105" name="cubicle" tilewidth="20" tileheight="34">
+  <image source="../tileset/cubicle.png" width="160" height="170"/>
+ </tileset>
+ <tileset firstgid="145" name="doors" tilewidth="20" tileheight="34">
+  <image source="../tileset/doors.png" width="160" height="136"/>
+ </tileset>
+ <tileset firstgid="177" name="dividers" tilewidth="20" tileheight="34">
+  <image source="../tileset/dividers.png" width="160" height="34"/>
+ </tileset>
+ <tileset firstgid="185" name="decor" tilewidth="20" tileheight="34">
+  <image source="../tileset/decor.png" width="160" height="34"/>
+ </tileset>
+ <layer name="regions_input" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztk7ENACAMwyr+P5qVhY6NlcYPxDWiKryc5fsK1Dd3+0o3dZfN/NpPvIlymwj5D5LdXEnznvSZh9yc7OYKuTnZzRVq8wu1TwA5
+  </data>
+ </layer>
+ <layer name="regions_output" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztkzESAEAEA7X+/+Frr6GUnbAfSCwijp9cnq9APXOXr+yW4vzNVN4n9lHtfes9kH+Q3M2Vc95zfuYhOyd3c4XsnNzNFarzBxTiAWk=
+  </data>
+ </layer>
+ <layer name="input_Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1DEOgCAQBVFqNGjByY0HtqWB7XgYnQtM8neyKf207NhfsV9wYv9oc9nDBd1fp9fkjB56d78nuFdE/odoc/kfNuiWyB7esLls8oBuiWwy2lz2UKBbInuINpc9ZOiWyB5Gmz/MTwOd
+  </data>
+ </layer>
+ <layer name="input_Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0DERAEAIBDEEUHyHf6e07+AKEgM7s1X8OtyfcD/hhfsXnwMAAPcsEfAASw==
+  </data>
+ </layer>
+ <layer name="output_Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1KENADAMA8EsUND9lw01aaFjKX8TGLxcBXWmByx0pwd80MNOrybpwY9/gEruIQFN+iU3SQ9+9ACV2kMDWcIA0w==
+  </data>
+ </layer>
+</map>

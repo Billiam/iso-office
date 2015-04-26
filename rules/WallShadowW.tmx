@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="16" height="16" tilewidth="20" tileheight="10" nextobjectid="1">
+ <tileset firstgid="1" name="shadows" tilewidth="20" tileheight="34">
+  <image source="../tileset/shadow.png" width="160" height="170"/>
+ </tileset>
+ <tileset firstgid="41" name="wall" tilewidth="20" tileheight="34">
+  <image source="../tileset/wall.png" width="160" height="102"/>
+ </tileset>
+ <tileset firstgid="65" name="doors" tilewidth="20" tileheight="34">
+  <image source="../tileset/doors.png" width="160" height="102"/>
+ </tileset>
+ <layer name="output_Shadow" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9ABMA+2AAQIj1d9DBQAADHAABQ==
+  </data>
+ </layer>
+ <layer name="regions_output" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAaaUDzSAKX+HolhRm8AAJhLAM4=
+  </data>
+ </layer>
+ <layer name="regions_input" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAaaUDzSAKV+HolhRm8AAFWrAKU=
+  </data>
+ </layer>
+ <layer name="input_Walls" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAa6UDzSAKV+1qOKK0YBPgAAd/8Atg==
+  </data>
+ </layer>
+ <layer name="input_Walls" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAaGUDzSAKV+1qKKK0YBPgAAjc8Avg==
+  </data>
+ </layer>
+ <layer name="input_Walls" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAYGUDzSAKV+1qeKK0YBPgAAjesAwA==
+  </data>
+ </layer>
+ <layer name="input_Walls" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAY6UDzSAKV+1qaKK0YBPgAAbPsAsA==
+  </data>
+ </layer>
+ <layer name="input_Walls" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAbOUDzSAKV+dqKKK0YBPgAAKm4BDA==
+  </data>
+ </layer>
+ <layer name="input_Walls" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAauUDzSAKV+dqGKK0YBPgAAOuYBFA==
+  </data>
+ </layer>
+ <layer name="input_Walls" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAZaQKwz0I4YBaMACwAA47gAVw==
+  </data>
+ </layer>
+ <layer name="input_Walls" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAZ6QGww0I4YBaMACwAA+IgAXw==
+  </data>
+ </layer>
+</map>
