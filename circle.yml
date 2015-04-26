@@ -1,0 +1,11 @@
+dependencies:
+  pre:
+    - sudo add-apt-repository -y ppa:mapeditor.org/tiled
+    - sudo apt-get update
+    - sudo apt-get install tiled-daily -y
+  post:
+    - convert -size 1x1 xc:white overlay_3.png
+test:
+  override:
+    - tmxrasterizer map.tmx $CIRCLE_ARTIFACTS/map.png
+
