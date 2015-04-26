@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="120" height="75" tilewidth="20" tileheight="10" nextobjectid="21">
+ <tileset firstgid="1" name="floor" tilewidth="20" tileheight="34">
+  <tileoffset x="0" y="5"/>
+  <image source="tileset/floor.png" width="160" height="34"/>
+ </tileset>
+ <tileset firstgid="9" name="wall" tilewidth="20" tileheight="34">
+  <image source="tileset/wall.png" width="160" height="102"/>
+ </tileset>
+ <tileset firstgid="33" name="shadow" tilewidth="20" tileheight="34">
+  <image source="tileset/shadow.png" width="160" height="170"/>
+ </tileset>
+ <tileset firstgid="73" name="table" tilewidth="20" tileheight="34">
+  <image source="tileset/table.png" width="160" height="136"/>
+ </tileset>
+ <tileset firstgid="105" name="cubicle" tilewidth="20" tileheight="34">
+  <image source="tileset/cubicle.png" width="160" height="170"/>
+ </tileset>
+ <tileset firstgid="145" name="doors" tilewidth="20" tileheight="34">
+  <image source="tileset/doors.png" width="160" height="136"/>
+ </tileset>
+ <tileset firstgid="177" name="dividers" tilewidth="20" tileheight="34">
+  <image source="tileset/dividers.png" width="160" height="34"/>
+ </tileset>
+ <tileset firstgid="185" name="decor" tilewidth="20" tileheight="34">
+  <image source="tileset/decor.png" width="160" height="34"/>
+ </tileset>
+ <tileset firstgid="193" name="nerditorium" tilewidth="280" tileheight="67">
+  <tileoffset x="-9" y="37"/>
+  <image source="tileset/nerditorium1.png" width="280" height="67"/>
+ </tileset>
+ <layer name="Floor" width="120" height="75">
+  <data encoding="base64" compression="zlib">
+   eJzt0cEJwDAMBEGBSf8tp4YomMiXecx/YVdVLQAAAAAAAAAAAAAAAAAAAAAAAAAIcQ1oYN/bJ77uZd9bf8/ReevvGbpv/Z3vzVt/5/M3m7/Z/M3m77/5m89fAAAAAAAAAAAAoOsG+2NqpQ==
+  </data>
+ </layer>
+ <layer name="Shadow" width="120" height="75" opacity="0.15">
+  <data encoding="base64" compression="zlib">
+   eJztnMtu4zAMRfUt9aRAV22nndl0Fv3/r5poQZRlryRK0cvBPYBgxw+J0TUpWnYSAiGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgi5XMvDoELW8wDWkTZ2HzovVS9Zh1ff6OdH+PLNw5xnfZb67oHWS5ZH9oyf2nl9msynRgftw6gO6rsfNTqIX3v1/dVqFOlGrf+ic5C+j4Ea78Co+Byhxutp6X+dL6dyauHMGsfr+Yx2a6T/vUXn2Zpczn1Wjc9qt8xZzbT7rH11RrujvSvsPmNfRc5mt+RBj+FnTjSas/WVMNLu3uO8xGeUC8/g7BqPLL1ZNc+0k8Y1/lOaq8vtR9tiP6TmjXqwch5xF42RHSnNe+t7Adt6snqeeFeNU3ahe35071jahny2lxarx1/Ljhrr9x5G2fUUxj+T2UHfyG4ay/Wvx8cRWD8fUf8u7KbxDDtW+O8l4PeyZiD+MuLeo8YPR/ttZFV8Rnqu9PNcH6Ts2iku5ViRX1HfeYzMdW18EFBcm9FfL9fyL2EPWkefS9t35t7jc9T3VX3+cy3v4fs1fqjtObuob7rOmfrq+Rurb1x/Dl96ylK2i10o3ozOjXoxei4C1XmE7/nzyP7S7af0TS3t+TtQ83uQEL7bf4/zV7b9D7X+91reMkt0/mq89ozUF7UjxPwmxsEXU95DmlueX976naivrx3hNVGeQ5qa+R4b92WZimsldhtnczbbPFGOnzn+xvgY499vU95CntKz7xb/3k07D7VzZyP9N3X/K6A4nYvVKT++9T2gXM5yOI+rjQutlOrWNtrjR+RXOR+5JVZ77ldKetSC+mrWOOepW+cpI+1C4x0CxWlPrE6h48F7pt1SXElh+wo9W1/pvzq+zbzuZuWgNgbkYm6rvrnzn9T+UaB2td/q52PoPY9ZNgnxfik1/up94puv4ctmO5es48Fbpt1e/tvruqlBfqOlyd1fjPZf3Zd27A8B9xOaG0R+qeeiEKnxt3W+rNRX8l0vYF/JthaQ31o8OXZLu+iajkv0zNmWT7BPfFOPzXouajQeu+W68ejV6lc6d/XMC6BxuCe6X2bFsFF4NSl9v1veq7DHlt4DGa0vakPb4x1/c/OXs/Bo4h3bW8fsWp1m6qtji97nGX9z98SzqPFfXez7sFbTe9E3tc8z/n6Cc3tQ+/9r2m5Uj9VOz63Z8yUXrsl7WsbqnrmVrXvn8bYUS1E+pT9LXlMaT5G+rf1d6kvU7yOfret7hho/qSkS/1qeMeTyT+RvqG10LKoH+XzLf1eksPdlI/xWY981tm1bcsek9tnfA9SA8gHbRi7m2v12XX/W2+1vkGrwxpvSsT0ZqW+k9flR7rwYd2we6D23ps0e+tr/dpTradbzT9RWT31T9Xnw9gE6rrX/7BjpLej4Xd/18/TX4dyXqo8QQgghhJCd+Q9lrZwD
+  </data>
+ </layer>
+ <layer name="Tile Layer 7" width="120" height="75" visible="0" opacity="0.29">
+  <data encoding="base64" compression="zlib">
+   eJzt0kEJACAABEGr2b+UEfQj4jKT4GBvDAAAAAAAAAAAAAAAAAAAAAAAaJivB3CVvm36tunbpm/baV8/+JO+bfq26dumb5u+bbq16dumb5u+bfq26dumLwAAAAAAAAAAwN4CZsgGGQ==
+  </data>
+ </layer>
+ <layer name="Walls (under)" width="120" height="75">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBcDjKAAAQ==
+  </data>
+ </layer>
+ <layer name="Walls" width="120" height="75">
+  <data encoding="base64" compression="zlib">
+   eJztnEtuFDEQhnudmfCYGYkVXAgFKRtYIJQ5ArACjpEgEYVlJKQcg5vRJbpEpVLlV9v9CP8nWe7p7rEd/11ld9mTrgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAp33aDulU5dvANet7MoH52RjHm8B91j2h+8G85OhLNnkicnmN7dcqF8wHa3PV/dWM89h3rM8xmwbTk6sDPQtaf+i7XHJ08Py3PH9eUC5oR4kOMf9MGu/6dChtFKhGrv3quZUsg+131/2zY2g8L6X2K993eU5N56W2DDSeD/ajzzLSkyGXnHS2tschX6PGax5jnvdpPxzvKpXpacusqa9kn6yp3cT1kFO796EbR3B0Pq+hr6znfQ3tZn6I4xcNyj9GPi+5r0K+bMntlpC+5J95LG3J0ThHfnyJfZUyTlG7Y+sroevWuf1Qbq01mWtx/LRSmRZH49y5yJekceo4FYvVha5736F+2HX1YkK/xHFLfTVnQ84aL2V+6rXD0ryFvnvj3Bjk+DuVvmfq81Lmp147PM3lGgzlW+fYO7ft7q/htIjZk3+eavwlQtoyc2jstYPticfF0P1juRTHNfVlWttvirbMlBqntEPmLbQlZCwwti6byhz+mUidn7YmtR214z8Wrfwz4+l72z3cUzWGnD6ivuWxK/T+Edr75Z3PbUdLbYkW/jlmvxtV79i6c/tI3y/r1u312rWW9ecW9huLb2yMukrrHqutrvsx6ivX4Wog/fN3p05rDTCXGtpye5jHpq9kSv881n5Ltf3Qp/dG3XJtMqVd/7O+sfnV2PE3V1sZJ9L6Xjjf4fPaz9T2dVMw9fsR2y/HWnLqztVWPzeevl6+RDv15vPW7zvWFL8qeZd4bPqmtqflnuIW8Svysb8Lvjf2b4K+D4n553d9em2kEDlxJz1OUn7b+T4sxNr01fODFvHJmP2W6EvItW9PpxwfvjTtUvDme17srLX9Wu+/Y/DseOxer9g8heHfUm2NXF5rhaeR1Lb1/Ir05WcsNr+y7DjFV1t7ai1Cc81cQmvqU/02yipbaqvX8lu0i8p51d3vf48SfXPa4aHfv3PLYz8pf886xbux/pt26vig7ms9f65Zbgr0bFwMeWisKtEgZa5y2U1nv5bdEqSx3NPRMr6h29Qara9HLfudOq7FcSHPbjt1bQr7lX3JfXIrzn3t0zeRfzGu0Tn23W9Eehtoh1w7qWW/1rEk57mRz0cp2m6ttc8W9kvlcQxL7/XSffCpT59F/tG4Rudy9a2NXiv37DelH8fYFdcbsltddm0fKm2Y+0XOSdZIqiYpfVm6r8K6N7QPpJW+cg906F1iTaTqm+KjS/1mbt+16nM5x5J1WONN6vg7Nzn2a42tMgai/z9QSRty7m/pn2NlyzGWj61rrQjFQOQ+vJi+nj1ybM36fmv7tf7fVA14jrX08TbkS7UeIX1D46kXa6ix3mlhrTG0QM+XZXxW24bec6pju6FrNdoYu8b6Sp97CNxrlePFJnKIaSXfl3icaLkHl2Mp3t8cOpfSZ1wH/9bjpk93ffqZeKx/I6LriPncg7iu1yT1Z87lvvbc/fY58/ap5rHat3l1l+pLlK4fhb4Xe4epUWfpfEkjY+FTxdJkm6guaTdW3WP0LX1WN51v2y+Hz9zeG3GP9zek1unZeixZ9y9xfiP7VffhXfewT71roecFAAAAAACApfMHiteaaQ==
+  </data>
+ </layer>
+ <imagelayer name="Copy of Image Layer 1" x="108" y="116" visible="0" opacity="0.18">
+  <image source="overlay_3.png"/>
+ </imagelayer>
+ <layer name="Wall (over)" width="120" height="75">
+  <data encoding="base64" compression="zlib">
+   eJzt2TERACAQA8H4L0HCG0UEzIRiV8H1lwAAAAAAAAAAAAAAAAAAAAAAAAAAAADQMO0AAAAAAAAAvrHiHwHwzm4HAAAAAHDtADcMAmw=
+  </data>
+ </layer>
+ <layer name="Decor" width="120" height="75">
+  <data encoding="base64" compression="zlib">
+   eJztyqENAEAIBEH6b4kvDiTmLYaZZMUlFwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBVr8ux83cEAAAAAAAAYE0B66sCMw==
+  </data>
+ </layer>
+ <layer name="Transparent Walls" width="120" height="75" opacity="0.63">
+  <data encoding="base64" compression="zlib">
+   eJzt08EJADAMA7G80/337asjlIAjTWA4XAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAu53pAXylbzZ9s/X0gGC+k03fbPpm0xcAAAAAAHgu7BIAWA==
+  </data>
+ </layer>
+</map>
