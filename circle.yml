@@ -11,6 +11,8 @@ test:
   override:
     - tmxrasterizer map.tmx $CIRCLE_ARTIFACTS/map.png
     - tmxrasterizer -a --scale 0.5 map.tmx $CIRCLE_ARTIFACTS/map-thumb.png
+    - tiled --export-map map.tmx $CIRCLE_ARTIFACTS/map.json
   post: 
     - s3cmd put --acl-public --guess-mime-type $CIRCLE_ARTIFACTS/map.png s3://iso-office/artifacts/map.png
     - s3cmd put --acl-public --guess-mime-type $CIRCLE_ARTIFACTS/map-thumb.png s3://iso-office/artifacts/map-thumb.png
+    - s3cmd put --acl-public --guess-mime-type $CIRCLE_ARTIFACTS/map.json s3://iso-office/artifacts/map.json
