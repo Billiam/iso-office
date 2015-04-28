@@ -14,6 +14,6 @@ test:
     - tiled --export-map map.tmx map.json
     - mv map.json $CIRCLE_ARTIFACTS/map.json
   post: 
-    - s3cmd put --acl-public --guess-mime-type $CIRCLE_ARTIFACTS/map.png s3://iso-office/artifacts/map.png
-    - s3cmd put --acl-public --guess-mime-type $CIRCLE_ARTIFACTS/map-thumb.png s3://iso-office/artifacts/map-thumb.png
-    - s3cmd put --acl-public --guess-mime-type $CIRCLE_ARTIFACTS/map.json s3://iso-office/artifacts/map.json
+    - s3cmd put --acl-public --add-header=Cache-Control:no-cache --guess-mime-type $CIRCLE_ARTIFACTS/map.png s3://iso-office/artifacts/map.png
+    - s3cmd put --acl-public --add-header=Cache-Control:no-cache --guess-mime-type $CIRCLE_ARTIFACTS/map-thumb.png s3://iso-office/artifacts/map-thumb.png
+    - s3cmd put --acl-public --add-header=Cache-Control:no-cache --guess-mime-type $CIRCLE_ARTIFACTS/map.json s3://iso-office/artifacts/map.json
